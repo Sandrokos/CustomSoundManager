@@ -1,0 +1,17 @@
+package-as: CustomSoundManager
+
+ignore:
+  - LICENSE
+  - LICENSE.*
+  - license
+  - license.*
+  - README.md
+  - readme.md
+  - docs
+  - docs/*
+  - tests
+  - tests/*
+  - .worktrees
+  - .worktrees/*
+  - .superpowers
+  - .superpowers/*

@@ -1,0 +1,13 @@
+## Interface: 120100, 120007
+## Title: Custom Sound Manager
+## Notes: Register custom sound files with LibSharedMedia by name and path.
+## Author: Sandrokos
+## Version: 0.1.0
+## OptionalDeps: LibSharedMedia-3.0
+## SavedVariables: CustomSoundManagerDB
+
+Libs\libs.xml
+Core\DB.lua
+Core\Registry.lua
+UI\Options.lua
+Main.lua

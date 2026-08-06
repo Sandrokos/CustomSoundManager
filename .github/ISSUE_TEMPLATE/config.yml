@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open a bug report
+    url: https://github.com/Sandrokos/CustomSoundManager/issues/new?template=bug_report.yml
+    about: Describe the problem and include your WoW and addon versions.

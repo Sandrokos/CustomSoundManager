@@ -1,0 +1,73 @@
+name: Bug Report
+description: Report something that is not working correctly
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. Include what you were trying to do.
+      placeholder: When I add a sound path, it does not appear in WeakAuras...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps needed to reproduce the issue.
+      placeholder: |
+        1. Open /csm
+        2. Add name Alert and path Interface\CustomSounds\alert.ogg
+        3. Open WeakAuras sound dropdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: CustomSoundManager should register Custom: Alert in LibSharedMedia.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: The sound does not appear in the dropdown.
+    validations:
+      required: true
+
+  - type: input
+    id: addon-version
+    attributes:
+      label: CustomSoundManager version
+      description: Shown in the AddOns list.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: wow-version
+    attributes:
+      label: WoW version
+      description: Retail Midnight build if known (e.g. 12.0.7 or 12.1.0).
+      placeholder: Retail 12.x
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or errors
+      description: Paste any Lua error text or describe screenshots you can attach.
+    validations:
+      required: false
