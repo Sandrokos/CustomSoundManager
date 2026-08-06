@@ -34,7 +34,7 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      placeholder: CustomSoundManager should register Custom: Alert in LibSharedMedia.
+      placeholder: CustomSoundManager should register Custom Alert in LibSharedMedia.
     validations:
       required: true
 
