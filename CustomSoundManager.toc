@@ -2,7 +2,7 @@
 ## Title: Custom Sound Manager
 ## Notes: Register custom sound files with LibSharedMedia by name and path.
 ## Author: Sandrokos
-## Version: 0.1.0
+## Version: 1.0.0
 ## OptionalDeps: LibSharedMedia-3.0
 ## SavedVariables: CustomSoundManagerDB
 
